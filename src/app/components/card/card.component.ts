@@ -1,9 +1,10 @@
-import { NgFor } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { NgFor, UpperCasePipe } from '@angular/common';
+import { Component, OnInit, Pipe } from '@angular/core';
 import { PokemonServices } from '../../services/pokemon-services.service';
 import { HttpClientModule } from '@angular/common/http';
-import { PokemonData } from '../../models/PokemonData';
+import { PokemonData } from '../../models/pokemonData';
 import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-card',
